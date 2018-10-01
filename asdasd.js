@@ -91,13 +91,13 @@ function render() {
     ctx.restore();
   }
   var image = new Image();
-  image.src = 'https://42works.net/wp-content/uploads/2015/02/How-to-Create-Short-URLs-For-Your-Blog-Using-Google-Shortener.png';
+  image.src = './custom.png';
 
 
 ctxTwo.save();
 ctxTwo.translate(player.x, player.y);
 ctxTwo.rotate(player.a);
-ctxTwo.drawImage(image, -5 , 0, 10, 10);
+ctxTwo.drawImage(image, -7 , -3.5, 15, 15);
 ctxTwo.restore();
 //ctxTwo.fillRect(20,20,20,20);
 //ctxTwo.fillStyle = '#0F0'
